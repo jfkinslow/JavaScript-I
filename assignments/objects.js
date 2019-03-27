@@ -34,9 +34,7 @@ var interns = {
     "name": "Kennan",
     "gender": "M",
     "email": "kdiben@tinypic.com",
-    "speak": () => {
-      return "Hello, my name is Kennan!";
-    }
+    "speak": () => 'Hello my name is Kennan!'
   },
   //3,kmummery2@wikimedia.org,Keven,M
   "Keven": {
@@ -58,9 +56,7 @@ var interns = {
     "name": "Antonietta",
     "gender": "F",
     "email": "adaine5@samsung.com",
-    "multiplyNums": (num1, num2) => {
-      return num1 * num2;
-    }
+    "multiplyNums": (num1, num2) => num1*num2
   }
 }
 
@@ -84,7 +80,7 @@ console.log(interns.Antonietta.gender);
 console.log(interns.Kennan.speak());
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
-console.log(interns.Antonietta.multiplyNums(3,4));
+console.log(interns.Antonietta.multiplyNums(7,2));
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
 // ==== Stretch Challenge: Nested Objects and the this keyword ==== 
